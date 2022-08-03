@@ -17,11 +17,11 @@ Future main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-         apiKey: "AIzaSyC03qDM2E-jH1qUh4FA4whp1jyZjq1QkKY",
-        appId: "1:366640933032:web:5d891e12bbfbe9d31aba9d",
-        messagingSenderId: "366640933032",
-        projectId: "new-life-cba33",
-        storageBucket: "new-life-cba33.appspot.com",)
+         apiKey: "AIzaSyC5kCR_KgbMV-Y0X9W9PcYbhFGb2gjzJ_8",
+        appId: "1:706352313642:android:ea46589bbb3047bfe39a53",
+        messagingSenderId: "706352313642",
+        projectId: "new-life-aca10",
+        storageBucket: "new-life-aca10.appspot.com",)
     );
   } else {
     await Firebase.initializeApp();
